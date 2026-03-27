@@ -15,3 +15,15 @@
    - XOR = 1 → secret bit 1
 
 **Why it's anonymous:** The minus sign is on the whole |111⟩ term. No one can tell which qubit was flipped.
+
+
+## XOR (Parity)
+
+XOR = 1 if bits are different (odd number of 1s)
+XOR = 0 if bits are same (even number of 1s)
+
+In my protocol:
+- Secret 0 → measurements have even parity → XOR = 0
+- Secret 1 → measurements have odd parity → XOR = 1
+
+XOR reveals the secret bit.
