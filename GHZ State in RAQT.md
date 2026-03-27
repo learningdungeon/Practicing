@@ -9,3 +9,8 @@ Why it hides sender:
 - This affects the whole GHZ state, not one qubit
 - Eve sees nothing on individual qubits
 - Only combined XOR reveals the secret
+
+Talking:
+GHZ state is to prepare the qubits for secrecy protocol" — Yes
+"When we measure we get either all 0 or all 1" — Yes
+"Eve will never understand who sent 1" — Yes
